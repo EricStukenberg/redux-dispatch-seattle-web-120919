@@ -4,6 +4,7 @@ function changeState(state, action){
       return {count: state.count + 1}
     default:
       return state;
+      //
   }
 }
 
